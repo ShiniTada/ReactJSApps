@@ -1,0 +1,77 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    background: beige;
+}
+
+.container {
+    margin-top: 32px;
+}
+
+.elem {
+    height: 200px;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 2px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.elem-text {
+    width: 190px;
+    height: 156px;
+    overflow: auto;
+}
+
+.settings {
+    background-color: rgba(170, 166, 173, 0.44);
+}
+
+.inside-button-margin {
+    margin: 5px;
+}
+
+.small-margin-left {
+    margin-left: 5px;
+}
+
+.margin-left {
+    margin-left: 15px;
+}
+
+.big-margin-left {
+    margin-left: 35px;
+}
+
+.big-text {
+    font-size: 110%;
+}
+
+.text {
+    color: white;
+}
+
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    border-radius: 20px;
+    background: white;
+}
+
